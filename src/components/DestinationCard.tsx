@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "./ui/button"
+import Link from "next/link"
 
 const DestinationCard = ({ destinationName, destinationType, destinationDesc }: {
     destinationName: string, destinationType: string, destinationDesc: string
@@ -15,8 +16,12 @@ const DestinationCard = ({ destinationName, destinationType, destinationDesc }: 
                 <div>{destinationDesc}</div>
             </div>
             <div className="w-full flex flex-row justify-between px-4 pb-4">
-                <Button>View Details</Button>
-                <Button>+</Button>
+                <Button variant={"outline"} className="dark">
+                    <Link href={"/destination"}>
+                        View Details
+                    </Link>
+                </Button>
+                <Button variant={"outline"} className="dark">+</Button>
             </div>
         </div>
     )
