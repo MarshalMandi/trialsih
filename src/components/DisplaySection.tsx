@@ -5,7 +5,7 @@ const DisplaySection = () => {
     return (
         <div className="flex flex-col gap-6 justify-center items-center w-full h-[600px] bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/displaybg.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
             <div className="text-white font-bold text-5xl">
-                Discover Jharkhand's Natural Heritage
+                Discover Jharkhand&apos;s Natural Heritage
             </div>
             <div className="text-white">
                 Experience the authentic beauty of tribal culture, pristine forests, and sacred landscapes through our AI-powered platform

@@ -1,12 +1,12 @@
 import DisplaySection from "@/components/DisplaySection";
 import ExploreDestinations from "@/components/ExploreDestinations";
 import TourismMapSection from "@/components/TourismMapSection";
-import { createClient } from "@/utils/supabase/server";
+// import { createClient } from "@/utils/supabase/server";
 
 export default async function Home() {
-  const supabase = await createClient()
-  const { data, error } = await supabase.auth.getClaims();
-  const user = data?.claims
+  // const supabase = await createClient()
+  // const { data, error } = await supabase.auth.getClaims();
+  // const user = data?.claims
   
   return (
     <main className="w-full h-full">
